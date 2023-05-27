@@ -39,7 +39,7 @@ export default function Portfolio() {
 
           return {
             ...repository,
-            image_url: imageUrl,
+            imageUrl: imageUrl,
           };
         });
 
@@ -59,6 +59,7 @@ export default function Portfolio() {
             <article className="project-card" key={repository.id}>
               <a href={repository.html_url}>
                 <h3>{repository.name}</h3>
+                <img src={repository.imageUrl} alt={repository.name} />
               </a>
             </article>
           ))}
