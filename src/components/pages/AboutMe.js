@@ -1,13 +1,15 @@
 import React from 'react';
+import Picture from '../assets/biopic.jpg';
+
 
 export default function AboutMe() {
   return (
     <div>
-      <h1 id="about-me">About Me</h1>
-      <div class="bio-pic-container">
-        <img class="bio-pic" src="./componets/assets/biopic.jpg" alt="Johnathan McGown"></img>
+      <div className="bio-pic-container">
+        <img className="bio-pic" src={ Picture } alt="Johnathan McGown"></img>
     </div>
-      <article class="my-info">
+      <h1 id="about-me">About Me</h1>
+      <article className="my-info">
             <p>
                 I am a driven worker, focused, and task oriented. I am able to adapt quickly to new styles of
                 work and fill new roles with minimal training. I have a high standard for getting things done in a
