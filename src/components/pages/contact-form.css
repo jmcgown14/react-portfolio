@@ -5,13 +5,14 @@ form {
     margin: 0 auto;
 }
 label {
-    font-weight: bold;
-    display: flex;
-    align-items: center;
+    font-weight: bold !important;
+    display: flex !important;
+    align-items: center !important;
 }
 
 input,
 textarea {
+    width: 350px;
     padding: 8px;
     margin-top: 10px;
     margin-bottom: 10px;
