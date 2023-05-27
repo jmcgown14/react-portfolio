@@ -55,14 +55,13 @@ export default function Portfolio() {
       <h1 id="my-work">My Portfolio</h1>
       <section className="all-project-cards">
         <div className="sub-project-cards">
-          {repositories.map((repository) => (
-            <article className="project-card" key={repository.id}>
-              <a href={repository.html_url}>
-                <h3>{repository.name}</h3>
-                <img src={repository.imageUrl} alt={repository.name} />
-              </a>
-            </article>
-          ))}
+        {repositories.map((repository) => (
+  <article className="project-card" key={repository.id} style={{ backgroundImage: `url(${repository.imageUrl})` }}>
+    <a href={repository.html_url}>
+      <h3>{repository.name}</h3>
+    </a>
+  </article>
+))}
         </div>
       </section>
     </div>

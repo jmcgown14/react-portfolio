@@ -23,7 +23,7 @@ h1 {
 }
 
 h3 {
-    color: rgb(237, 58, 58);
+    color: rgb(240, 83, 83);
 }
 
 /*Created container for biopic to be able to align in center*/
@@ -82,14 +82,16 @@ color:#0e1017 !important;
 
 .project-card {
     padding: 10px;
-    flex: 0 0 500px;
     height: 275px;
     border-style: solid;
     border-color: #004445;
     border-width: 1.5px;
     margin: 10px;
     border-radius: 25px;
-}
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
 /* Created a sub class to make grid for remaing project cards. repeat(# of items in colomun, 1fr lets it fill entire space in colomun allowed)*/
 .sub-project-cards {
