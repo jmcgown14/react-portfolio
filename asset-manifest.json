@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.8076be9f.css",
+    "main.js": "/react-portfolio/static/js/main.3cf2e21f.js",
+    "static/media/Forest.png": "/react-portfolio/static/media/Forest.3f30dbac60d0f3b80c88.png",
+    "static/media/tower.jpg": "/react-portfolio/static/media/tower.c2043c76abe8465b7f8f.jpg",
+    "static/media/biopic.jpg": "/react-portfolio/static/media/biopic.39cf6d46d3589bc1a6f1.jpg",
+    "static/media/planets.jpg": "/react-portfolio/static/media/planets.48711c5256c58fd42db6.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.8076be9f.css.map": "/react-portfolio/static/css/main.8076be9f.css.map",
+    "main.3cf2e21f.js.map": "/react-portfolio/static/js/main.3cf2e21f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8076be9f.css",
+    "static/js/main.3cf2e21f.js"
+  ]
+}
