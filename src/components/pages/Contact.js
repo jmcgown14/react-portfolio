@@ -23,6 +23,15 @@ const ContactForm = () => {
 
     // Perform form validation
     // Send form data to the backend server for email processing
+    const formData = {
+      name: name,
+      email: email,
+      message: message,
+    };
+
+    const emailUrl = `mailto:jmac3292@gmail.com?subject=Contact Form Submission&body=${encodeURIComponent(
+      JSON.stringify(formData, null, 2)
+    )}`;
 
     // Reset the form fields
     setName('');
