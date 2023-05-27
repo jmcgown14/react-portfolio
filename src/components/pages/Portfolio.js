@@ -1,27 +1,34 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 
 export default function Portfolio() {
+  const [repositories, setRepositories] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get('https://api.github.com/users/jmcgown14/repos')
+      .then((response) => {
+        setRepositories(response.data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
+
   return (
     <div>
       <h1 id="my-work">My Portfolio</h1>
-      <section class="all-project-cards">
-            <article class="project-card" id="refactory-challenge">
-                <a href="https://jmcgown14.github.io/refactory-challenge/">
-                    <h3> Refactory Challenge </h3>
-                </a>
+      <section className="all-project-cards">
+        <div className="sub-project-cards">
+          {repositories.map((repository) => (
+            <article className="project-card" key={repository.id}>
+              <a href={repository.html_url}>
+                <h3>{repository.name}</h3>
+              </a>
             </article>
-            <div class="sub-project-cards">
-                <article class="project-card" id="forest">
-                    <h3>Forest</h3>
-                </article>
-                <article class="project-card" id="planets">
-                    <h3>Planets</h3>
-                </article>
-                <article class="project-card" id="tower">
-                    <h3>Tower</h3>
-                </article>
-            </div>
-        </section>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }
