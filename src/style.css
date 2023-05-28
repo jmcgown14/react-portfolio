@@ -99,29 +99,6 @@ color:#0e1017 !important;
     grid-template-columns: repeat(2, 1fr);
 }
 
-/* Got rid of background size 100% and changed to cover to fill space, added no repeating of picture, also aligned postion*/
-
-#forest {
-    background-image: url(./components/assets/Forest.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#planets {
-    background-image: url(./components/assets/planets.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-#tower {
-    background-image: url(./components/assets/tower.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 /*Remove padding and Margin */
 .contact-quick-links {
     list-style-type: none;
@@ -129,10 +106,27 @@ color:#0e1017 !important;
     font-size: 15px;
 }
 
-footer li {
-    display: inline-block;
-    margin: 7px;
-}
+.footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8b400;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .content {
+    padding-bottom: 15px;
+  }
+
+  .icon {
+    font-size: 50px !important;
+    margin-top: 15px;
+    padding: 5px;
+  }
 
 /* Keep sthe Nav links in header and centers them at smaller sizes*/
 @media screen and (max-width: 750px) {
