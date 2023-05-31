@@ -139,6 +139,7 @@ export default function Resume() {
 
         <h2>Skills/Certifications</h2>
         <ul>
+          <l1>University of Denver Coding Boot Camp - Full Stack Web Devlopement</l1>
           <li>Successfully passed the SIE</li>
           <li>Google Certification – Technical Support Fundamentals</li>
         </ul>

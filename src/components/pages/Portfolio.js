@@ -11,7 +11,7 @@ export default function Portfolio() {
         const sortedRepositories = response.data.sort(
           (a, b) => new Date(b.created_at) - new Date(a.created_at)
         );
-        const recentRepositories = sortedRepositories.slice(0, 5);
+        const recentRepositories = sortedRepositories.slice(0, 6);
 
         const updatedRepositories = recentRepositories.map((repository) => {
           // Add logic to determine the image URL based on repository name or other criteria

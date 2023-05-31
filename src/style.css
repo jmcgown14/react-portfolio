@@ -23,7 +23,9 @@ h1 {
 }
 
 h3 {
-    color: rgb(240, 83, 83);
+    color: white;
+    background-color: black;
+    display: inline-block;
 }
 
 /*Created container for biopic to be able to align in center*/
@@ -83,7 +85,6 @@ color:#0e1017 !important;
 .project-card {
     padding: 10px;
     height: 275px;
-    border-style: solid;
     border-color: #004445;
     border-width: 1.5px;
     margin: 10px;
