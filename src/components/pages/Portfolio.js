@@ -14,7 +14,6 @@ export default function Portfolio() {
         const recentRepositories = sortedRepositories.slice(0, 6);
 
         const updatedRepositories = recentRepositories.map((repository) => {
-          // Add logic to determine the image URL based on repository name or other criteria
           let imageUrl;
 
           if (repository.name === "text-editor") {
@@ -33,7 +32,7 @@ export default function Portfolio() {
             imageUrl =
               "https://img.freepik.com/free-photo/programming-background-collage_23-2149901771.jpg?w=1060&t=st=1685225475~exp=1685226075~hmac=84d5327cd0da2e013ae8393e050c9cdde2c052b523ed4174d6eabb0d3afe2916";
           } else {
-            // Set a default image URL if no specific image is available for the repository
+            // Default image URL if no specific image is available for the repo
             imageUrl = "https://img.freepik.com/premium-photo/keyboard-button-coming-soon_74097-511.jpg?w=1060";
           }
 
@@ -58,7 +57,7 @@ export default function Portfolio() {
         {repositories.map((repository) => (
   <article className="project-card" key={repository.id} style={{ backgroundImage: `url(${repository.imageUrl})` }}>
     <a href={repository.html_url}>
-      <h3>{repository.name}</h3>
+      <h4>{repository.name}</h4>
     </a>
   </article>
 ))}
