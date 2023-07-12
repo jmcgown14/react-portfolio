@@ -42,6 +42,8 @@ const ContactForm = () => {
   return (
     <form onSubmit={handleSubmit}>
       <div>
+        <p>If you would like to connect or reach me, feel free to fill out the form below to send me an email.</p>
+        <p>You can also email me directly at: johnathanmmcgown@gmail.com or you can call me at 913-314-6722.</p>
         <label htmlFor="name">Name:</label>
         <input
           type="text"
@@ -49,6 +51,7 @@ const ContactForm = () => {
           value={name}
           onChange={handleNameChange}
           required
+          placeholder="Enter your name"
         />
       </div>
       <div>
@@ -59,6 +62,7 @@ const ContactForm = () => {
           value={email}
           onChange={handleEmailChange}
           required
+          placeholder="Enter your email"
         />
       </div>
       <div>
@@ -68,6 +72,7 @@ const ContactForm = () => {
           value={message}
           onChange={handleMessageChange}
           required
+          placeholder="Enter your message"
         ></textarea>
       </div>
       <div>

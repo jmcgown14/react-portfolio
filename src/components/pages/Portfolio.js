@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import "./portfolio.css";
+
 
 export default function Portfolio() {
   const [repositories, setRepositories] = useState([]);

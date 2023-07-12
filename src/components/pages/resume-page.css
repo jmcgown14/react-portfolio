@@ -8,11 +8,22 @@ body {
   h1 {
     font-size: 24px;
     margin-bottom: 20px;
+    background-color: white !important;
   }
   
   h2 {
     font-size: 20px;
     margin-bottom: 10px;
+    text-decoration: underline;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  h4 {
+    color: black !important;
+    background-color: white !important;
   }
   
   p {

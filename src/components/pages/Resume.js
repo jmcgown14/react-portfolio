@@ -12,7 +12,8 @@ export default function Resume() {
   
   <h2>EXPERIENCE</h2>
 
-  <h3>Admission Counselor II – 2U (Denver, CO) - July 2020 – February 2023</h3>
+  <h3>Admission Counselor II – 2U</h3>
+  <h5>(Denver, CO) - July 2020 – February 2023</h5>
   <ul>
     <li>Recruit students looking to continue their education both in graduate or certification programs by evaluating their ability to be a good candidate.</li>
     <li>Assisted applicants that met qualification for programs in completing application and meeting deadlines.</li>
@@ -20,7 +21,8 @@ export default function Resume() {
     <li>Created and maintained a pipeline of 100+ students in a fast-paced environment with multiple academic start dates and deadlines throughout the year.</li>
   </ul>
 
-  <h3>Quality Assurance/Universal Banker - ANB Bank (Denver, CO) - January 2020 – July 2020</h3>
+  <h3>Quality Assurance/Universal Banker - ANB Bank</h3> 
+  <h5>(Denver, CO) - January 2020 – July 2020</h5>
   <ul>
     <li>Reviewed loan documentation to make sure it satisfied State and Federal regulatory standards as well as compliance guidelines.</li>
     <li>Identified incorrect documentation and sought solutions as well as offered recommendations on ways to resolve the issues found on loan documents.</li>
@@ -28,7 +30,8 @@ export default function Resume() {
     <li>Actively identify and display knowledge of financial products and services to offer through in-person, referrals, and other forms of communication.</li>
   </ul>
 
-  <h3>Financial Services Professional - Charles Schwab (Lone Tree, CO) - January 2019 – October 2019</h3>
+  <h3>Financial Services Professional - Charles Schwab</h3> 
+  <h5>(Lone Tree, CO) - January 2019 – October 2019</h5>
   <ul>
     <li>Engaged clients in positive and proactive conversations that allowed them to feel they were being heard and taken care of and advocated for.</li>
     <li>Learned and thrived in the fast-paced environment of working in a call center – being resilient during call volume spikes, getting clients connected with the correct departments in a timely manner, maintain and exceeding stat goals set for me, and work collaboratively with multiple departments including sales, IT, and helpdesk.</li>
@@ -36,14 +39,16 @@ export default function Resume() {
     <li>Able to swiftly learn multiple programs that allowed me to form relationships with the clients quickly.</li>
   </ul>
 
-  <h3>Enterprise Management Trainee (Denver, CO) - October 2017 – August 2018</h3>
+  <h3>Enterprise Management Trainee - Enterprise Holdings</h3>
+  <h5>(Denver, CO) - October 2017 – August 2018</h5>
   <ul>
     <li>Coached in the skills to run the fast-paced day-to-day operations of a branch.</li>
     <li>Developed the skills to sell products and services through a focus on professionalism and a customer-focused mindset as well work with other departments for marketing and sales.</li>
     <li>While in leadership roles, managed and developed others to promote excellent customer service, develop problem-solving skills, and practice diverse management styles.</li>
   </ul>
 
-  <h3>Assistant Director of Admission – Benedictine College (Atchison, KS) - September 2014 – August 2017</h3>
+  <h3>Assistant Director of Admission – Benedictine College</h3> 
+  <h5>(Atchison, KS) - September 2014 – August 2017</h5>
   <ul>
     <li>Recruited and assisted incoming freshmen through the application process, financial aid system, and enrollment procedure.</li>
     <li>Utilized different computer programs for tracking and filing communication and forms.</li>
@@ -53,14 +58,16 @@ export default function Resume() {
 
   <h2>EDUCATION</h2>
 
-  <h3>University of Denver Boot Camps (Denver, CO) - December 2022 – June 2023</h3>
+  <h3>University of Denver Boot Camps </h3> 
+  <h5>(Denver, CO) December 2022 – June 2023</h5>
   <p>Certification in Full-Stack Web Development</p>
 
-  <h3>Benedictine College (Atchison, KS) - August 2010 – May 2014</h3>
+  <h3>Benedictine College</h3> 
+  <h5>(Atchison, KS) August 2010 – May 2014</h5>
   <p>Bachelor of Arts in Finance; Minor in Theology</p>
   <p>Studied Abroad in Florence, Italy Fall Semester 2012</p>
 
-  <h2>SKILLS</h2>
+  <h3>SKILLS</h3>
   <ul>
     <li>Successfully passed the SIE</li>
     <li>Google Certification – Technical Support Fundamentals</li>

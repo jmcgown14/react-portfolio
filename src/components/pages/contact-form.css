@@ -22,6 +22,7 @@ textarea {
 
 
 button {
+    margin: 10px !important;
     padding: 10px 20px;
     background-color: #167f5f;
     color: #fff;
